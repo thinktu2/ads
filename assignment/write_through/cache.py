@@ -85,6 +85,20 @@ class sim_cache:
 
         #缓存从server中读取的文件
 
+        if self._search_cache(target_file):
+            _, cache_data, cache_version = self._read_cache(target_file)
+            _, server_data, server_version = self._target_server.read(target_file)
+            if cache_version == server_version:
+                return cache_data
+            else:
+                self._write_cache(target_file, server_data, server_version)
+                return server_data
+        
+        elif self._target_server._search_server(target_file):
+            _, server_data, server_version = self._target_server.read(target_file)
+            self._write_cache(target_file, server_data, server_version)
+            return server_data
+
         ######## End ########
 
         # there is no file in the system
@@ -99,6 +113,10 @@ class sim_cache:
         #向cache中写入数据并更新version
 
         #向server中写入数据并更新version
+        
+        new_version = self._get_new_version()
+        self._write_cache(target_file, data, new_version)
+        self._target_server.write(target_file, data, new_version)
 
         ######## End ########
 
