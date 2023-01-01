@@ -55,7 +55,12 @@ bool Proposer::Proposed(bool ok, PROPOSAL &lastAcceptValue)
 	
         //请完善下面逻辑
  		/**********Begin**********/
-
+		if (m_refuseCount > m_acceptorCount / 2)
+		{
+			m_value.serialNum += m_proposerCount;
+			StartPropose(m_value);
+			return false;
+		}
 	    /**********End**********/
 
 		//拒绝数不到一半
@@ -70,7 +75,11 @@ bool Proposer::Proposed(bool ok, PROPOSAL &lastAcceptValue)
 	//如果已经有提议被接受，修改成已被接受的提议
 	//请完善下面逻辑
  	/**********Begin**********/
-
+	if (lastAcceptValue.serialNum > m_maxAcceptedSerialNum)
+	{
+		m_maxAcceptedSerialNum = lastAcceptValue.serialNum;
+		m_value.value = lastAcceptValue.value;
+	}
 	/**********End**********/	
 
 	//如果自己的提议被接受
@@ -98,7 +107,12 @@ bool Proposer::Accepted(bool ok)
 		//使用StartPropose(m_value)重置状态
 	    //请完善下面逻辑
         /**********Begin**********/
-
+		if (m_refuseCount > m_acceptorCount / 2)
+		{
+			m_value.serialNum += m_proposerCount;
+			StartPropose(m_value);
+			return false;
+		}
         /**********End**********/
 			
 		return true;

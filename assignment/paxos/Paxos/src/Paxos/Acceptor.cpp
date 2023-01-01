@@ -25,7 +25,8 @@ bool Acceptor::Propose(unsigned int serialNum, PROPOSAL &lastAcceptValue)
     //请完善下面逻辑
 
 	/**********Begin**********/
-
+	m_maxSerialNum = serialNum;
+	lastAcceptValue = m_lastAcceptValue;
 	/**********End**********/
 
 	return true;
@@ -37,14 +38,14 @@ bool Acceptor::Accept(PROPOSAL &value)
 	//Acceptor又重新答应了其他提议
    //请完善下面逻辑
 	/**********Begin**********/
-
+	if (m_maxSerialNum > value.serialNum) return false;
 	/**********End**********/
 
     
 	//批准提议通过
     //请完善下面逻辑
     /**********Begin**********/
-
+	m_lastAcceptValue = value;
 	/**********End**********/
 
 	return true;
