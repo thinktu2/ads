@@ -4,6 +4,9 @@ FROM ubuntu:18.04
 # Author
 LABEL author="cs.thinktu@gmail.com"
 
+# Workdir
+WORKDIR /root/ads
+
 # Initialize custom image
 RUN sed -i 's#archive.ubuntu.com#mirrors.ustc.edu.cn#g' /etc/apt/sources.list \
     # Update software source
