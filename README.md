@@ -31,25 +31,25 @@ docker rmi ads:2022
 启动
 
 ```shell
-docker run --name "ads_2022" -di ads:2022
+docker run --name "ads2022" -di ads:2022
 ```
 
 连接
 
 ```shell
-docker exec -it ads_2022 bash
+docker exec -it ads2022 bash
 ```
 
 停止
 
 ```shell
-docker stop ads_2022
+docker stop ads2022
 ```
 
 <font color=#FF0000>删除</font>
 
 ```shell
-docker rm ads_2022
+docker rm ads2022
 ```
 
 ## 注意
