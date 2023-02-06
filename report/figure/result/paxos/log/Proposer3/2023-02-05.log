@@ -1,0 +1,62 @@
+2023-02-05 11:09:33 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:4, 提议:4]
+
+2023-02-05 11:09:35 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:4, 提议:4]
+
+2023-02-05 11:09:38 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:9, 提议:4]
+
+2023-02-05 11:09:38 Tid:66 [Info] Proposer3号修改了提议:提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:38 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:42 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:43 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:43 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:44 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:44 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:45 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:45 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:45 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:46 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:46 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:47 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:47 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:47 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:9, 提议:5]
+
+2023-02-05 11:09:48 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:14, 提议:5]
+
+2023-02-05 11:09:51 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:14, 提议:5]
+
+2023-02-05 11:09:52 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:14, 提议:5]
+
+2023-02-05 11:09:53 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:14, 提议:5]
+
+2023-02-05 11:09:53 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:14, 提议:5]
+
+2023-02-05 11:09:54 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:14, 提议:5]
+
+2023-02-05 11:09:54 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:14, 提议:5]
+
+2023-02-05 11:09:55 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:14, 提议:5]
+
+2023-02-05 11:09:56 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:19, 提议:5]
+
+2023-02-05 11:09:59 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:19, 提议:5]
+
+2023-02-05 11:10:02 Tid:66 [Info] Proposer3号开始(Propose阶段):提议=[编号:24, 提议:5]
+
+2023-02-05 11:10:05 Tid:66 [Info] Proposer3号开始(Accept阶段):提议=[编号:24, 提议:5]
+
+2023-02-05 11:10:06 Tid:66 [Info] Proposer3号的提议被批准,用时33494MS:最终提议 = [编号:24, 提议:5]
+
